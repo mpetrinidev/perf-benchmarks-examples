@@ -7,8 +7,7 @@ namespace dotnet_core
     {
         static void Main(string[] args)
         {
-            BenchmarkRunner.Run(typeof(LINQ));
-
+            BenchmarkRunner.Run<Iteration>();
             Console.Read();
         }
     }
